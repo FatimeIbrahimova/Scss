@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+   .left-side{
+    padding-left: 10px;
+    padding-top: 10px;
+    span{
+        color:#ff7a58
+    }
+   }
+}
+i{
+    color: yellow;
+}
+.number{
+    color:#ff7a58;
+    font-weight: 20px;
+}
+.left-side{
+    padding-left: 15px;
+    padding-top: 5px;
+}

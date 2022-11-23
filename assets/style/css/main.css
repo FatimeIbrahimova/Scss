@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
   height: 100vh;
+  background-color: #f2f8fb;
 }
 
 .container {
@@ -12,26 +16,72 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: red;
-  height: 250px;
+  height: 150px;
 }
 .title h1 {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .title p {
-  padding-top: 0px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .left-side {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+footer .left-side span {
+  color: #ff7a58;
+}
+
+i {
+  color: yellow;
+}
+
+.number {
+  color: #ff7a58;
+  font-weight: 20px;
+}
+
+.left-side {
+  padding-left: 15px;
+  padding-top: 5px;
 }
 
 .cards {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+img {
+  width: 300px;
+  height: 230px;
 }
 
 .col-4 {
-  border-width: 1px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-width: 3px;
+  border-color: black;
+  box-shadow: rgba(6, 8, 9, 0.2) 0px 8px 24px;
   height: 500px;
   width: 33.3333333333%;
+  width: 300px;
+}
+.col-4 h1 {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.col-4 p {
+  padding-left: 10px;
+}
+
+hr {
+  padding-left: 10px;
 }/*# sourceMappingURL=main.css.map */

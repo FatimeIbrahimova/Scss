@@ -1,7 +1,22 @@
 .col-4{
-    border-width:1px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-width:3px;
+    border-color: black;
+    box-shadow: rgba(6, 8, 9, 0.2) 0px 8px 24px;
     height:500px;
     // width:400px;
     width: calc((100% / 12)*4);
+    width: 300px;
+    h1{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    p{
+        padding-left: 10px;
+    }
+}
+
+hr{
+    padding-left: 10px;
+
 }
